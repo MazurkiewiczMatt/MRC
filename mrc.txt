@@ -1,0 +1,47 @@
+laser resetplanner
+laser addpoint pno=1 x=0.375 y=0.375 
+laser addpoint pno=2 x=1.875 y=1.875 
+laser addpoint pno=3 x=3.375 y=3.375 
+laser addpoint pno=4 x=0.375 y=0.375 
+laser addpoint pno=5 x=1.125 y=1.125 
+laser addpoint pno=6 x=1.875 y=1.875 
+laser addpoint pno=7 x=3.375 y=3.375 
+laser addpoint pno=8 x=0.375 y=0.375 
+laser addpoint pno=9 x=1.125 y=1.125 
+laser addpoint pno=11 x=0.375 y=0.375 
+laser addpoint pno=12 x=1.875 y=1.875 
+laser addpoint pno=13 x=0.375 y=0.375 
+laser addpoint pno=14 x=1.875 y=1.875 
+laser addpoint pno=15 x=2.625 y=2.625 
+laser addpoint pno=16 x=3.375 y=3.375 
+laser addcon pno1=1 pno2=4 
+laser addcon pno1=1 pno2=2 
+laser addcon pno1=2 pno2=1 
+laser addcon pno1=2 pno2=3 
+laser addcon pno1=2 pno2=6 
+laser addcon pno1=3 pno2=2 
+laser addcon pno1=4 pno2=1 
+laser addcon pno1=4 pno2=5 
+laser addcon pno1=5 pno2=4 
+laser addcon pno1=5 pno2=9 
+laser addcon pno1=6 pno2=2 
+laser addcon pno1=6 pno2=7 
+laser addcon pno1=7 pno2=6 
+laser addcon pno1=7 pno2=16
+laser addcon pno1=8 pno2=9 
+laser addcon pno1=8 pno2=11
+laser addcon pno1=9 pno2=8 
+laser addcon pno1=9 pno2=10 
+laser addcon pno1=11 pno2=8 
+laser addcon pno1=11 pno2=12 
+laser addcon pno1=12 pno2=11 
+laser addcon pno1=12 pno2=14 
+laser addcon pno1=13 pno2=14 
+laser addcon pno1=14 pno2=13 
+laser addcon pno1=14 pno2=12 
+laser addcon pno1=15 pno2=10 
+laser addcon pno1=15 pno2=16 
+laser addcon pno1=16 pno2=15 
+laser addcon pno1=16 pno2=7
+laser calculatecost
+laser findroute startx=3.2 starty=0.3 endx=0.3 endy=3.3
